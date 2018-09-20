@@ -1,5 +1,5 @@
 import express from 'express'
-import { appRouter } from './app/routes/routes'
+// import { appRouter } from './app/routes/routes'
 // import {cassInsertDB, cassSelectDB} from './app/db/dbConsult'
 
 import bodyParser from 'body-parser'
@@ -21,6 +21,6 @@ app.listen(8081, () => {
   console.log('common everybodys')
   logger.info(`listening in port ${8081}`)
 })
-app.use(appRouter)
+// app.use(appRouter)
 
 export default app
